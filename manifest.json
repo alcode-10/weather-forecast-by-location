@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Tracker",
+    "version": "1.0",
+    "description": "Displays real-time weather updates for your location or a chosen city.",
+    "permissions": ["geolocation", "storage", "activeTab"],
+    "host_permissions": ["https://api.openweathermap.org/"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    }
+  }
+  

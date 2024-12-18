@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Guard</title>
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="bulma.min.css">
+  <style>
+    .weather-card { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">🌦 Weather Guard</h1>
+      <div class="box">
+        <div class="field">
+          <button id="get-weather" class="button is-danger is-fullwidth">
+            Get Current Location Weather
+          </button>
+        </div>
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input id="city-input" class="input" type="text" placeholder="Enter city name">
+          </div>
+          <div class="control">
+            <button id="get-city-weather" class="button is-warning">Search</button>
+          </div>
+        </div>
+        <div id="weather-info" class="weather-card">
+          <!-- Weather information will be dynamically displayed here -->
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="popup.js"></script>
+</html>

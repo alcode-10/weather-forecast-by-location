@@ -1,0 +1,35 @@
+Weather Predictor Browser Extension
+
+Description:
+A browser extension that allows users to quickly check weather information for their current location or any manually entered city. It utilizes the Geolocation API and the OpenWeatherMap API to retrieve and display real-time weather data, including temperature, humidity, and weather conditions. The extension includes error handling for failed location fetching and data retrieval.
+
+Features
+- Fetches weather data based on the user's current location.
+- Allows users to enter any city to get weather information.
+- Displays temperature, humidity, and weather conditions.
+- Handles errors gracefully for location fetching and data retrieval.
+
+Installation
+1. Download the latest version of the extension.
+2. Unzip the downloaded file.
+3. Open Chrome or Firefox and go to the Extensions page (`chrome://extensions` or `about:addons`).
+4. Enable "Developer mode" if it isn't already enabled.
+5. Click "Load unpacked" and select the folder containing the extension files.
+
+Usage
+1. Click the extension icon in the browser toolbar.
+2. Use the "Get Weather" button to fetch weather data based on your current location.
+3. Enter a city in the input field and click "search" to fetch weather information for that city.
+4. View the weather details directly on the extension popup.
+
+Error Handling
+- If the Geolocation API fails to retrieve the user's location, a relevant error message will be displayed.
+- If the OpenWeatherMap API fails to provide weather data, a corresponding error message will be shown.
+
+Contributing
+Contributions are welcome! If you find a bug or have a suggestion for improvement:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Submit a pull request.
